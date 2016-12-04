@@ -8,6 +8,8 @@
 	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 	crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+	<script src="js/jquery.fullPage.js"></script>
+	<link rel="stylesheet" href="css/jquery.fullPage.css">
 	<meta name="csrf-param" content="authenticity_token" />
 	<meta name="csrf-token" content="jblIWEWfNxq0gAIjKvHcBEjY/6dZWGOSxhliXPPP8O+ASIJ2991w82vQz0SRGvAGPfnOgDphobWXVvwdlVbrVA==" />
 
@@ -26,13 +28,42 @@
 	</style>
 </head>
 <body>
+	<div id="fullpage">
+	    <div class="section" id="section0">
+	       <div class="myContent">
+	          <h1>Section 1</h1>
+	        </div>
+	    </div>
+	    <div class="section fp-auto-height" id="section1">
+	        <div class="slide" id="slide1">
+	          <div class="myContent">
+	              <h1>Section 2</h1>
+	            </div>
+	        </div>
+	        <div class="slide" id="slide2">
+	            <h1>Section 2.2</h1>
+	        </div>
+	    </div>
+	    <div class="section fp-auto-height" id="section2">
+	        <div class="myContent">
+	          <h1>Section 3</h1>
+	        </div>
+	    </div>
+	</div>
 
-	<img src="img/1.jpg" alt="1" />
-	<img src="img/2.svg" alt="2" />
-	<img src="img/3.svg" alt="3" />
-	<img src="img/4.svg" alt="4" />
-	<img src="img/5.svg" alt="5" />
-	<img src="img/6.svg" alt="6" />
+<!-- 		<img class="section" src="pic/1.jpg" alt="1" />
+		<img class="section" src="pic/2.svg" alt="2" />
+		<img class="section" src="pic/3.svg" alt="3" />
+		<img class="section" src="pic/4.svg" alt="4" />
+		<img class="section" src="pic/5.svg" alt="5" />
+		<img class="section" src="pic/6.svg" alt="6" />
+		<img class="section" src="pic/7.svg" alt="7" />
+		<img class="section" src="pic/8.svg" alt="8" />
+		<img class="section" src="pic/9.svg" alt="9" />
+		<img class="section" src="pic/10.svg" alt="10" />
+		<img class="section" src="pic/11.svg" alt="11" /> -->
+	
+
 
 	<canvas id="chart-0" class="chart" width="400" height="240"></canvas>
 
